@@ -1,0 +1,13 @@
+{
+    "animal": [
+        {
+            "name": "cat"
+        }, 
+        {
+            "name": "dog"
+        }, 
+        {
+            "name": "okapi"
+        }
+    ]
+}

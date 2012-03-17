@@ -1,0 +1,5 @@
+<div class="animals">
+<% for item in @animal: %>
+  <div><%= item.name %></div>
+<% end %>
+</div>
