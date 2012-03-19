@@ -2,12 +2,12 @@ require('lib/setup')
 
 Spine   = require('spine')
 Animals = require('controllers/animals')
+$       = Spine.$
 
 class App extends Spine.Controller
   constructor: ->
     super
-    @log('こんにちわ！')
-    @animals = new Animals(el: $('#hello'))
+    @animals = new Animals(el: $('#animalSection'))
     @append @animals
     		
 module.exports = App
