@@ -8,7 +8,6 @@ class App extends Spine.Controller
   constructor: ->
     super
     @animals = new Animals(el: $('#animalSection'))
-    @append @animals
     		
 module.exports = App
     
