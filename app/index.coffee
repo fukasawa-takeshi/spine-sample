@@ -12,4 +12,4 @@ class App extends Spine.Controller
     @animals = new Animals(el: $('#animalSection'))
     		
 module.exports = App
-    
+

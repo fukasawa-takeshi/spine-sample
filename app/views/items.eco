@@ -1,5 +1,5 @@
-<div class="animals">
+<ul>
 <% for item in @animal: %>
-  <div><%= item.name %></div>
+  <li><%= item.name %></li>
 <% end %>
-</div>
+</ul>
