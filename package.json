@@ -5,6 +5,7 @@
     "serveup": "~0.0.4",
 		"express": "~2.5.8",
     "hem": "~0.1.6",
+		"optimist" : "~0.3.1",
     "es5-shimify": "~0.0.1",
     "json2ify": "~0.0.1",
     "jqueryify": "~0.0.1",
